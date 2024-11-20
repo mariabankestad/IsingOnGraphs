@@ -49,7 +49,7 @@ To train the IGExplainer, run:
 python train_explainer.py --config explainer_config_file_name
 ```
 
-A model visualization if found in *visualize_results.ipynb*.
+To visualize the results, see *visualize_results.ipynb*.
 
 ## Citation
 
@@ -58,8 +58,8 @@ If you find this work helpful, please cite:
 
 ```
 @inproceedings{
-b{\r{a}}nkestad2024ising,
-title={Ising on the Graph: Task-specific Graph Subsampling via the Ising Model},
+bankestad2024ising,
+title={Ising on the Graph: Task-specific Graph Subsampling via the {Ising} Model},
 author={Maria B{\r{a}}nkestad and Jennifer R. Andersson and Sebastian Mair and Jens Sj{\"o}lund},
 booktitle={The Third Learning on Graphs Conference},
 year={2024},
