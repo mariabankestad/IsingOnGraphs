@@ -1,0 +1,10 @@
+dataset_name: mutagenicity
+num_epochs: 500
+batch_size: 64
+train_test_split: [0.9, 0.1]
+lr: 0.005
+model_path: final_models/mutag_model.pt
+input_dim: 14
+hidden_dim: 64
+output_dim: 2
+edge_dim: 3

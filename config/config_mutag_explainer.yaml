@@ -1,0 +1,10 @@
+dataset_name: mutagenicity
+num_epochs: 200
+batch_size: 64
+lr: 0.01
+model_path: final_models/mutag_model.pt
+explainer_path: final_models/mutag_explainer.pt
+input_dim: 14
+hidden_dim: 64
+output_dim: 2
+edge_dim: 3
